@@ -515,7 +515,6 @@ if __name__ == "__main__":
                             tbwriter.add_image('val/recon', reshape_reconstructions(xval, format_net(gflow.net(zsval)[0]), 
                                   data_shape=image.shape), global_step=tb_step)
                         tbwriter.flush()  
-# HERE
 
                 # if j == 60: break
    
@@ -537,7 +536,7 @@ if __name__ == "__main__":
         loss_tb_step = 0
         testloss = 0
         tb_step = 0
-# HERE
+
         # gflow = GFlow_AMD_approx(net, INPUT_DIM, loss_function,tau=ODE_TAU, alpha=ODE_ALPHA,  aTOL=ODE_ATOL,rTOL=ODE_RTOL, int_tsteps=ODE_TSTEPS, device=device,
         #                                         dtstep=AMD_DTSTEP, dtmaxstep=AMD_DTMAXSTEP, dtfactor=AMD_DTFACTOR, dtiter=AMD_DTITER, conv_graddt=AMD_CONV_GRADDT,
         #                                         conv_percentagetau=AMD_CONV_PERCTAU)
@@ -556,7 +555,6 @@ if __name__ == "__main__":
                 xtest = torch.autograd.Variable(xtest) 
                 # ============ Forward ============
                 if AE:
-# # HERE
                     x_model = net(xtest)        
                 else:
                     # gflow.net=net.decoder
