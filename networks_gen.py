@@ -4,7 +4,7 @@ from networks_gen_grad import expm_func, expm_rot, asinh
 #import expm
 # import math
 import sys
-sys.path.append("../../pytorch_expm")
+sys.path.append("pytorch_expm")
 from pytorch_expm import expm_taylor
 
 #================================================

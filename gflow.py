@@ -12,7 +12,7 @@ import torch
 from torch import nn 
 import sys
 
-sys.path.append("../../torchdiffeq-master-amd")
+sys.path.append("torchdiffeq-master-amd")
 
 from torchdiffeq import odeint
 from torchdiffeq import odeint_amd

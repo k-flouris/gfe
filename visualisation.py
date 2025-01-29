@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 from gflow import time_steps_func
 # sys.path.append("../torchdiffeq-master/")
 
-sys.path.append("../../torchdiffeq-master-amd")
+sys.path.append("torchdiffeq-master-amd")
 from torchdiffeq import odeint as odeint
 #=================== data ==========================
 
@@ -268,8 +268,8 @@ def show_visual_progress(net, glfclass, test_dataloader,rows=1, flatten=True, co
          title = title.replace(" ", "_")
          plt.savefig(title)
     plt.show()
-   
- 
+
+
 def plot_convergence_curve_gen_adj(gflnet, x_data, log_px, name, loss_function, tau, tsteps): 
     batch_size = x_data.shape[0]
     gflnet.zero_lists()

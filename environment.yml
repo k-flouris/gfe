@@ -1,0 +1,18 @@
+name: gfe
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - numpy>=1.20.0
+  - matplotlib>=3.4.0
+  - scipy>=1.6.0
+  - scikit-learn>=0.24.0
+  - pytorch>=1.9.0
+  - torchvision  # Added because it's often used with PyTorch
+  - cudatoolkit=10.2  # Modify according to your CUDA version if using GPU
+  - seaborn>=0.11.0
+  - tensorboard>=2.0.0
+  # Adding a placeholder for pytoolkit10 as it seems to be a custom or non-standard library.
+  # Replace with the correct channel or remove if not available:
+  - pytoolkit10>=0.1.0

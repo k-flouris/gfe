@@ -2,7 +2,7 @@ import torch
 from scipy.linalg import expm
 import numpy as np
 import sys
-sys.path.append("../../pytorch_expm")
+sys.path.append("pytorch_expm")
 from pytorch_expm.expm_taylor import expm_taylor
 
 class expm_rot(torch.autograd.Function):
