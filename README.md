@@ -108,9 +108,11 @@ Install dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
-
+or install with conda:
 ---
-
+```
+conda env create -f environment.yml
+```
 ## Contributing
 
 Contributions are welcome! If you have ideas for improving the project, feel free to submit a pull request or open an issue.
