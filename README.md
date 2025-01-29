@@ -23,7 +23,10 @@ https://arxiv.org/abs/2412.00864
    ```bash
    gh repo clone k-flouris/gfe
    ```
-   or git clone https://github.com/k-flouris/gfe.git
+   or
+    ```bash
+     git clone https://github.com/k-flouris/gfe.git
+    ```
    
 2. Install required dependencies (see [Dependencies](#dependencies)).
 
