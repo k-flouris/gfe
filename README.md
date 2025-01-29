@@ -23,6 +23,11 @@ https://arxiv.org/abs/2412.00864
    ```bash
    gh repo clone k-flouris/gfe
    ```
+   or
+    ```bash
+     git clone https://github.com/k-flouris/gfe.git
+    ```
+   
 2. Install required dependencies (see [Dependencies](#dependencies)).
 
 ---
@@ -48,12 +53,12 @@ https://arxiv.org/abs/2412.00864
 
 Run the project by executing `main.py`:
 ```bash
-python main.py --config <config_file>
+python main.py -c <config_file>
 ```
 
 ### Parameters
 
-- `--config <config_file>`: Specify a configuration file to customize the experiment.
+- `-c <config_file>`: Specify a configuration file to customize the experiment.
 - Additional options and hyperparameters can be specified in the configuration files.
 
 ---
