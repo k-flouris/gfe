@@ -4,7 +4,9 @@
 Published at ML4PS at Neurips 2024 [pdf](https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_56.pdf)
 
 
-@misc{flouris2025explicitdataefficientencodinggradient,
+@article{
+
+flouris2025explicitdataefficientencodinggradient,
 
       title={Explicit and data-Efficient Encoding via Gradient Flow}, 
       
