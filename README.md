@@ -5,11 +5,17 @@ Published at ML4PS at Neurips 2024 [pdf](https://ml4physicalsciences.github.io/2
 
 
 @misc{flouris2025explicitdataefficientencodinggradient,
+
       title={Explicit and data-Efficient Encoding via Gradient Flow}, 
+      
       author={Kyriakos Flouris and Anna Volokitin and Gustav Bredell and Ender Konukoglu},
+      
       year={2025},
+      
       eprint={2412.00864},
+      
       archivePrefix={arXiv},
+      
       primaryClass={stat.ML},
 }
 
